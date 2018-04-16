@@ -1,8 +1,8 @@
-from django.urls import include, path
+from django.conf.urls import include, url
 from . import views
 
 urlpatterns = [
     #homepage
-    path('', views.index, name='index'),
+    url(r'^', views.index, name='index'),
 
 ]
