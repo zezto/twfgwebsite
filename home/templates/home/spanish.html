@@ -1,8 +1,7 @@
 <!DOCTYPE html> {% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
-{%  if content %}
-<html lang="en">
+{% if text %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +10,22 @@
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{% static 'home/twfg.css' %}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'home/favicon/apple-icon-57x57.png' %}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'home/favicon/apple-icon-60x60.png' %}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'home/favicon/apple-icon-72x72.png' %}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'home/favicon/apple-icon-76x76.png' %}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'home/favicon/apple-icon-114x114.png' %}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'home/favicon/apple-icon-120x120.png' %}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'home/favicon/apple-icon-144x144.png' %}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'home/favicon/apple-icon-152x152.png' %}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'home/favicon/apple-icon-180x180.png' %}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'home/favicon/android-icon-192x192.png' %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'home/favicon/favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'home/favicon/favicon-96x96.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'home/favicon/favicon-16x16.png' %}">
-    <link rel="manifest" href="home/favicon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'website/favicon/apple-icon-57x57.png' %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'website/favicon/apple-icon-60x60.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'website/favicon/apple-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'website/favicon/apple-icon-76x76.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'website/favicon/apple-icon-114x114.png' %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'website/favicon/apple-icon-120x120.png' %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'website/favicon/apple-icon-144x144.png' %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'website/favicon/apple-icon-152x152.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'website/favicon/apple-icon-180x180.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'website/favicon/android-icon-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'website/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'website/favicon/favicon-96x96.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'website/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="home/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter48284132 = new Ya.Metrika({ id: 48284132, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script>
@@ -57,36 +56,37 @@
                 </a>
             </nav>
             <div id="button" class="text-center">
-                <a href="./es" class="btn" role="button">Español</a>
+                <a href="./" class="btn" role="button">English</a>
             </div>
         </div>
     </div>
+
     <!--Banner-->
     <div class="text-center" id="banner">
-        <h4> {{content}}</h4>
+        <h4> {{text}}</h4>
     </div>
     <!-- main image-->
     <div class="jumbotron-fluid">
         <div class="container">
-            <h1 class="text-center">Our Policy is Caring</h1>
+            <h1 class="text-center">Nuestra Lema es Proteger</h1>
         </div>
     </div>
     <!-- why choose us -->
     <div class="container">
         <div id="why_choose_us" class="text-center">
-            <h1>Why Choose Us</h1>
+            <h1>Porque Seleccionarlos</h1>
             <ul>
-                <li>Family Owned, Quality Service</li>
-                <li>Experienced & Professional</li>
-                <li>Competitive pricing</li>
-                <li>Multiple carriers</li>
+                <li>Negocio de Familia, Calidad de Servicio</li>
+                <li>Experiencia y Profesionalidad</li>
+                <li>Precios competitivos</li>
+                <li>Variedad de Companias</li>
             </ul>
         </div>
     </div>
     <!-- Services-->
     <div class="container-fluid">
         <div id="services">
-            <h2 class="text-center ">Coverages We Offer</h2>
+            <h2 class="text-center ">Coverturas que ofrecemos</h2>
             <div class="row ">
                 <div id="auto-img">
                     <h2 class="text-center">Auto</h2>
@@ -94,12 +94,12 @@
             </div>
             <div class="row">
                 <div id="home-img">
-                    <h2 class="text-center">Home</h2>
+                    <h2 class="text-center">Casa</h2>
                 </div>
             </div>
             <div class="row">
                 <div id="comm-img">
-                    <h2 class="text-center">Commercial</h2>
+                    <h2 class="text-center">Comercial</h2>
                 </div>
             </div>
         </div>
@@ -108,22 +108,24 @@
     <!-- About Us-->
     <div class="container text-center">
         <div id="about_us">
-            <h1>About Us</h1>
-            <p>We are a family owned office that has serving the Houston area since 2006 with all insurance needs.
-                <br> Since the moment we started our little business we wanted to maintain a family oriented business with an
-                emphasis on honesty and support.
-                <br> Which isn't seen much today, unfortunately, We like to give it straight to our clients, no sugarcoat, and
-                look to provide the best coverage for all their needs.
-                <br> your looking for on-demand support, something big chain companies can't provide, you have found the ideal
-                place. We are always one call away to answer any and all question you may have.</p>
+            <h1>Quienes Somos</h1>
+            <p>Somos una compania de familia que ha servido a la comunidad desde 2006.
+                <br> desde el momento que empezamos nuestro pequeno negocio hemos mantenido nuestro lema de apoyar a nuestra
+                comunidad dando enfasis a la honestidad y servicio excelente a nuestra comunidad.
+                <br> Parece no ser mucho en estos tiempos de technologia, nos encanta explicar con lujo de detalles las coverturas
+                que nuestros clientes compran sin dejar alguna duda de lo que les cubrira en caso de un desastre. Por eso
+                nos enfocamos en ofrecer la mejor covertura a nuestros clientes para cubrir sus necesidades.
+                <br> Si busca calidad y honestidad no encontrara otro lugar ideal, estamos a una llamada de su hogar, llamenos
+                para contestar cualquier pregunta que se le presente en cuanto a seguros se trata.
+            </p>
         </div>
     </div>
     <!-- footer-->
     <div class="container-fluid">
         <div class="text-center" id="footer">
-            <h1>Contact Us</h1>
+            <h1>Contáctenos</h1>
             <p>Email: estelatwfg@hotmail.com</p>
-            <p>Office: (832)446-6350</p>
+            <p>Oficina: (832)446-6350</p>
             <p>Mobile: (281)701-7397</p>
             <p>Fax: (832)446-6418</p>
             <p>4420 Cypress Creek Pkwy
@@ -220,13 +222,7 @@
 </body>
 
 </html>
-
-{%  else %}
-<!DOCTYPE html> {% load staticfiles %}
-<!DOCTYPE html>
-<!DOCTYPE html> {% load staticfiles %}
-<!DOCTYPE html>
-<html lang="en">
+{% else %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -234,23 +230,23 @@
     <title> Estela Portillo Insurance Services
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{% static 'home/idk.css' %}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'home/favicon/apple-icon-57x57.png' %}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'home/favicon/apple-icon-60x60.png' %}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'home/favicon/apple-icon-72x72.png' %}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'home/favicon/apple-icon-76x76.png' %}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'home/favicon/apple-icon-114x114.png' %}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'home/favicon/apple-icon-120x120.png' %}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'home/favicon/apple-icon-144x144.png' %}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'home/favicon/apple-icon-152x152.png' %}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'home/favicon/apple-icon-180x180.png' %}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'home/favicon/android-icon-192x192.png' %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'home/favicon/favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'home/favicon/favicon-96x96.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'home/favicon/favicon-16x16.png' %}">
-    <link rel="manifest" href="home/favicon/manifest.json">
+    <link rel="stylesheet" href="{% static 'home/twfg.css' %}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'website/favicon/apple-icon-57x57.png' %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'website/favicon/apple-icon-60x60.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'website/favicon/apple-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'website/favicon/apple-icon-76x76.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'website/favicon/apple-icon-114x114.png' %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'website/favicon/apple-icon-120x120.png' %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'website/favicon/apple-icon-144x144.png' %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'website/favicon/apple-icon-152x152.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'website/favicon/apple-icon-180x180.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{% static 'website/favicon/android-icon-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'website/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'website/favicon/favicon-96x96.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'website/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="home/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter48284132 = new Ya.Metrika({ id: 48284132, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script>
@@ -281,37 +277,38 @@
                 </a>
             </nav>
             <div id="button" class="text-center">
-                <a href="./es" class="btn" role="button">Español</a>
+                <a href="./" class="btn" role="button">English</a>
             </div>
         </div>
     </div>
+
     <!--Banner
     <div class="text-center" id="banner">
         <h4> {{text}}</h4>
     </div>
--->
+    -->
     <!-- main image-->
     <div class="jumbotron-fluid">
         <div class="container">
-            <h1 class="text-center">Our Policy is Caring</h1>
+            <h1 class="text-center">Nuestra Lema es Proteger</h1>
         </div>
     </div>
     <!-- why choose us -->
     <div class="container">
         <div id="why_choose_us" class="text-center">
-            <h1>Why Choose Us</h1>
+            <h1>Porque Seleccionarlos</h1>
             <ul>
-                <li>Family Owned, Quality Service</li>
-                <li>Experienced & Professional</li>
-                <li>Competitive pricing</li>
-                <li>Multiple carriers</li>
+                <li>Negocio de Familia, Calidad de Servicio</li>
+                <li>Experiencia y Profesionalidad</li>
+                <li>Precios competitivos</li>
+                <li>Variedad de Companias</li>
             </ul>
         </div>
     </div>
     <!-- Services-->
     <div class="container-fluid">
         <div id="services">
-            <h2 class="text-center ">Coverages We Offer</h2>
+            <h2 class="text-center ">Coverturas que ofrecemos</h2>
             <div class="row ">
                 <div id="auto-img">
                     <h2 class="text-center">Auto</h2>
@@ -319,12 +316,12 @@
             </div>
             <div class="row">
                 <div id="home-img">
-                    <h2 class="text-center">Home</h2>
+                    <h2 class="text-center">Casa</h2>
                 </div>
             </div>
             <div class="row">
                 <div id="comm-img">
-                    <h2 class="text-center">Commercial</h2>
+                    <h2 class="text-center">Comercial</h2>
                 </div>
             </div>
         </div>
@@ -333,22 +330,24 @@
     <!-- About Us-->
     <div class="container text-center">
         <div id="about_us">
-            <h1>About Us</h1>
-            <p>We are a family owned office that has serving the Houston area since 2006 with all insurance needs.
-                <br> Since the moment we started our little business we wanted to maintain a family oriented business with an
-                emphasis on honesty and support.
-                <br> Which isn't seen much today, unfortunately, We like to give it straight to our clients, no sugarcoat, and
-                look to provide the best coverage for all their needs.
-                <br> your looking for on-demand support, something big chain companies can't provide, you have found the ideal
-                place. We are always one call away to answer any and all question you may have.</p>
+            <h1>Quienes Somos</h1>
+            <p>Somos una compania de familia que ha servido a la comunidad desde 2006.
+                <br> desde el momento que empezamos nuestro pequeno negocio hemos mantenido nuestro lema de apoyar a nuestra
+                comunidad dando enfasis a la honestidad y servicio excelente a nuestra comunidad.
+                <br> Parece no ser mucho en estos tiempos de technologia, nos encanta explicar con lujo de detalles las coverturas
+                que nuestros clientes compran sin dejar alguna duda de lo que les cubrira en caso de un desastre. Por eso
+                nos enfocamos en ofrecer la mejor covertura a nuestros clientes para cubrir sus necesidades.
+                <br> Si busca calidad y honestidad no encontrara otro lugar ideal, estamos a una llamada de su hogar, llamenos
+                para contestar cualquier pregunta que se le presente en cuanto a seguros se trata.
+            </p>
         </div>
     </div>
     <!-- footer-->
     <div class="container-fluid">
         <div class="text-center" id="footer">
-            <h1>Contact Us</h1>
+            <h1>Contáctenos</h1>
             <p>Email: estelatwfg@hotmail.com</p>
-            <p>Office: (832)446-6350</p>
+            <p>Oficina: (832)446-6350</p>
             <p>Mobile: (281)701-7397</p>
             <p>Fax: (832)446-6418</p>
             <p>4420 Cypress Creek Pkwy
@@ -445,6 +444,4 @@
 </body>
 
 </html>
-
 {% endif %}
-

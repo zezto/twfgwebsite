@@ -1,198 +1,272 @@
-*{
-    margin: 0;
-    padding: 0;
+.container-fluid{
+  padding: 0 !important;
+  overflow: hidden;
+}
+.navbar-logo{
+  width: 500px;
+  text-align: center;
+}
+#button .btn{
+  color: white;
+  background-color: rgb(53, 111, 130);
+  text-align: center;
+}
+#banner{
+  min-height: 40px;
+  height:auto;
+  width: 100%;
+  color: black;
+  background-color: rgba(255, 255, 255,.8);
+  margin: 0 auto;
+  z-index: 8;
+  position: absolute;
+  top: 187px;
+}
+#banner h4{
+  padding-top: 11px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.jumbotron-fluid{
+  background-image: url("https://i.imgur.com/GRu291B.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  top: 10px;
+  background-position: center;
+  position: relative;
+  }
+.jumbotron-fluid h1{
+  position: relative;
+  margin: 0 auto;
+  font-size: 75px;
+  color: rgb(255, 106, 80);
+  border: rgb(53, 111, 130) 5px solid;
+  top: 200px;
+  width: 310px;
+  text-align: center;
+  padding-bottom: 15px;
+  }
+#why_choose_us {
+  padding-top: 15px;
+  background-color: white;
+  border-bottom: rgba(211, 211, 221, .5) solid 3px;
+  padding-bottom: 20px;
+}
+#why_choose_us h1{
+  color: rgb(255, 106, 80)
+}
+#why_choose_us li{
+  color: rgb(53, 111, 130)
+}
+#why_choose_us ul li{
+  list-style-type: none;
+  margin-left: -30px;
+}
+#services{
+  padding-top: 20px;
+}
+#services h2{
+  color: rgb(255, 106, 80);
+}
+#auto-img{
+  background: url("https://i.imgur.com/mPAvCvc.png") no-repeat center;
+  background-size: contain;
+  height: 800px;
+  width: 100%;
+}
+#auto-img h2{
+  color: rgb(255, 106, 80);
+  
+}
+#home-img{
+  background: url("https://i.imgur.com/fPV0qBw.png") no-repeat center;
+  background-size: contain;
+  width: 100%;
+  height: 869px;
+}
+#comm-img{
+  background: url("https://i.imgur.com/XgyA2ka.png") no-repeat center;
+  background-size: contain;
+  height: 715px;
+  width: 100%;
+}
+#border1 {
+  border-bottom: rgba(211, 211, 221, .5) solid 3px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: -80px;
+}
+#about_us{
+  color: rgb(53, 111, 130);
+  padding-top: 35px;
+}
+#about_us h1{
+  color: rgb(255, 106, 80);
+}
+
+#footer{
+  padding-top: 15px;
+  background: rgba(80, 97, 102, 1);
+}
+#footer h1{
+  color: rgb(255, 106, 80);
+}
+#facebook{
+  height: 60px;
+  padding-bottom: 10px;
+}
+#map{
+  height: 400px;
+}
+
+
+@media only screen and (min-width: 480px){
+  /* for computer or tablets*/
+  .navbar-nav{
+    padding-right: 100px;
   }
   
-  html {
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-  
-  
+  .nav-item{
+    padding: 20px;
   }
-  #banner{
-    min-height: 40px;
-    height:auto;
-    width: 100%;
-    color: black;
-    background-color: rgba(255, 255, 255,.8);
-    margin: 0 auto;
-    z-index: 8;
-    position: absolute;
-    top: 180px;
+  #why_choose_us h1{
+    font-size: 50px;
   }
-  #banner h4{
-    padding-top: 11px;
+  #why_choose_us ul{
+    padding-top: 10px;
+  }
+  #why_choose_us li{
+    font-size: 35px;
+  }
+  #services h2{
+    font-size: 50px;
+  }
+  #auto-img{
+    margin-top: -180px;
+  }
+  #auto-img h2{
+    padding-top: 320px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 70px;
   }
-  h2{
-    color:rgb(255, 106, 80);
+  #home-img{
+    margin-top: -420px;
   }
-  p ,ul ,li {
-    color:rgb(53, 111, 130);
+  #home-img h2{
+    padding-top: 320px;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #comm-img{
+    margin-top: -530px;
+  }
+  #comm-img h2{
+    padding-top: 350px;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #about_us h1{
+    font-size: 50px;
+  }
+  #about_us p{
     font-size: 30px;
-  
   }
-  #twfgtoplogo{
-    position: fixed;
-    width: 100%;
-    margin: 0 auto;
-    z-index: 10;
-    background: white;
-    }
-  
-  header {
-    width: 100%;
-    top: auto;
-    bottom: auto;
-    text-align: center;
-    margin:0 auto;
-    
-  
+  #footer p {
+    font-size: 30px;
   }
-  
-  navigation {
-    width: 100%;
-    margin: 0;
-  }
-  .navigation ul {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navigation li {
-    font-weight: 100;
-    letter-spacing: 2px;
-    padding: 20px;
-  
-  }
-  
-  #text{
-    color: green;
-    padding: 20px;
-    margin: 0 auto;
-  }
-  
-  #insurance-image{
+}
+
+@media only screen and (max-width: 480px){
+  /* for phones */
+  .jumbotron-fluid{
     background-image: url("https://i.imgur.com/GRu291B.jpg");
     background-size: cover;
     width: 100%;
-    height: 700px;
-    top: 170px;
+    height: 500px;
+    top: 10px;
     background-position: center;
     position: relative;
+    }
+    .jumbotron-fluid h1{
+      position: relative;
+      margin: 0 auto;
+      font-size: 75px;
+      color: rgb(255, 106, 80);
+      border: rgb(53, 111, 130) 5px solid;
+      top: 100px;
+      width: 310px;
+      text-align: center;
+      padding-bottom: 8px;
+      font-style: normal;
+      }
+    .nav-link , .nav-item {
+      text-align: center;
+        
+    }
+    #why_choose_us h1{
+      font-size: 38px;
+    }
+    #why_choose_us li{
+      font-size: 18px;
+    }
+    .container-fluid .row{
+      margin-left: -160px;
+    }
+    #auto-img{
+      background-image: url("https://i.imgur.com/PMspVn8.png");
+      background-size: cover;
+      width: 100%;
+      height: 300px;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      position: relative;
+      padding-top: 50px;
+      margin-bottom: 30px;
+    }
+    #auto-img h2{
+      padding-top: 70px;
+      font-size: 50px;
+      padding-left: 210px;
+    }
+    #home-img{
+      background: url("https://i.imgur.com/arhYzXS.png") no-repeat center;
+      background-size: cover;
+      width: 100%;
+      height: 700px;
+      position: relative;
+      margin-top: -170px;
+    }
+    #home-img h2{
+      padding-top: 320px;
+      font-size: 50px;
+      padding-left: 120px;
+    }
+    #comm-img{
+      background: url("https://i.imgur.com/wZULMV5.png") no-repeat center;
+      background-size: cover;
+      width: 100%;
+      height: 550px;
+      position: relative;
+      margin-top: -225px;
+    }
+    #comm-img h2{
+      padding-top: 240px;
+      font-size: 50px;
+      padding-left: 210px;
+    }
+    #border1{
+      border-bottom: rgba(211, 211, 221, .5) solid 3px;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: -80px;
+    }
+    #about_us{
+      margin-top: -20px;
+    }
+
+    #about_us h1{
+      font-size: 38px;
+    }
+
   }
-  #insurance-image h1{
-    font-family: 'Raleway', sans-serif !important;
-    position: relative;
-    margin: 0 auto;
-    font-size: 75px;
-    color: rgb(255, 106, 80);
-    border: rgb(53, 111, 130) 5px solid;
-    top: 270px;
-    width: 310px;
-  }
-  #menu a {
-    text-decoration: none;
-    color: black;
-    padding: 12px;
-    font-size: 20px;
-  }
-  #menu{
-    border-bottom: rgba(63, 109, 124, 1) solid 5px;
-    width: 323px;
-    margin: 0 auto;
-  }
-  #serviceslist ul li{
-    display: inline-block;
-    list-style-type: none;
-    word-spacing: 5px;
-  }
-  .auto{
-    background-image: url("https://i.imgur.com/xxEGQlF.png");
-    background-size: cover;
-    background-position: center;
-    display:inline-block;
-    height: 200px;
-    width: 300px;
-    font-size: 25px;
-    line-height: 200px;
-    padding-top: 100px;
-    text-align: center;
-    background-color: clear;
-    color: black;
-  }
-  .auto p {
-    padding-top: 17px;
-  }
-  .home{
-    background-image: url("https://i.imgur.com/MLNRYaS.png");
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    height: 200px;
-    width: 300px;
-    font-size: 25px;
-    line-height: 200px;
-    padding-top: 150px;
-    text-align: center;
-    background-color: clear;
-    color: black;
-  }
-  .home p{
-    padding-top: 20px;
-  }
-  .com{
-    background-image: url("https://i.imgur.com/7zDsbOa.png");
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    height: 275px;
-    width: 300px;
-    font-size: 25px;
-    line-height: 200px;
-    padding-top: 175px;
-    text-align: center;
-    background-color: clear;
-    color: black;
-  }
-  .com p{
-    padding-top: 20px;
-  }
-  #why_choose_us ul li {
-    list-style-type: none;
-  }
-  #why_choose_us{
-    padding-top: 200px;
-  }
-  #services h2 {
-    padding-top: 70px;
-    margin-bottom: -90px
-  }
-  #services{
-    margin-bottom: -100px;
-  }
-  #About_us{
-    padding-bottom: 15px;
-  }
-  #about_us h2{
-    text-align: center;
-  }
-  #About_us p{
-    width:50%;
-    text-align: center;
-    margin:0 auto;
-  }
-  #contact{
-    padding-top: 50px;
-    background: rgba(80, 97, 102, 1)
-  }
-  #contact p{
-    padding: 20px;
-    color: black;
-  }
-  /*icon url car "https://i.imgur.com/xxEGQlF.png"
-  icon url house "https://i.imgur.com/MLNRYaS.png"
-  icon url glass " https://i.imgur.com/rRQ9lOf.png"
-  icon comemrcial url "https://i.imgur.com/7zDsbOa.png"

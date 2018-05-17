@@ -8,3 +8,9 @@ class Banner(models.Model):
     def __str__(self):
         
         return self.content
+
+class SpanishBanner(models.Model):
+    text = models.CharField(max_length=250)
+
+    def __str__(self):
+        return self.text
