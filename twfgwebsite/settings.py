@@ -25,12 +25,7 @@ SECRET_KEY = 'agoe72-&-!ov51dpy^jm++(a*-htskn@v9lz9^v##=+bhqziia'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '10.0.0.158',
-    '127.0.0.1',
-    '0.0.0.0',
-    'zeztomstwnt.ddns.net',
-]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -123,4 +118,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_ROOT = '/home/eportillo12/twfgwebsite/home/static/'
+STATIC_URL = '/static'
