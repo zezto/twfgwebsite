@@ -91,15 +91,21 @@
   height: 715px;
   width: 100%;
 }
+#flood-img{
+  background: url("https://i.imgur.com/uxOh5lT.png") no-repeat center;
+  background-size: contain;
+  width: 100%;
+  height: 372px;
+}
 #border1 {
   border-bottom: rgba(211, 211, 221, .5) solid 3px;
   width: 60%;
   margin: 0 auto;
-  margin-top: -80px;
+  margin-top: 70px;
 }
 #about_us{
   color: rgb(53, 111, 130);
-  padding-top: 35px;
+  padding-top: 50px;
 }
 #about_us h1{
   color: rgb(255, 106, 80);
@@ -163,6 +169,14 @@
   }
   #comm-img h2{
     padding-top: 350px;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #flood-img{
+    margin-top: -100px;
+  }
+  #flood-img h2{
+    padding-top: 145px;
     font-size: 70px;
     font-weight: bold;
   }
@@ -255,14 +269,27 @@
       font-size: 50px;
       padding-left: 210px;
     }
+    #flood-img{
+      background: url("https://i.imgur.com/m8k3OQM.png") no-repeat center;
+      background-size: contain;
+      width: 100%;
+      height: 375px;
+      position: relative;
+      margin-top: -100px;
+    }
+    #flood-img h2{
+      padding-top: 160px;
+      font-size: 50px;
+      padding-left: 40px;
+    }
     #border1{
       border-bottom: rgba(211, 211, 221, .5) solid 3px;
       width: 90%;
       margin: 0 auto;
-      margin-top: -80px;
+      margin-top: 60px;
     }
     #about_us{
-      margin-top: -20px;
+      margin-top: 10px;
     }
 
     #about_us h1{
