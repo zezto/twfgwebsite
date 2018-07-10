@@ -3,9 +3,10 @@
 <!DOCTYPE html> {% load staticfiles %}
 <html lang="en">
 
-{% block body %}    
+{% block body %}
+
 <body>
-    {%  if content %}
+    {% if content %}
     <!--Banner-->
     <div class="text-center" id="banner">
         <h4> {{content}}</h4>
@@ -55,7 +56,9 @@
         </div>
     </div>
     <div class="text-center" id='more'>
-        <h2><a href="/extra">More Coverages...</a></h2>
+        <h2>
+            <a href="/extra">More Coverages...</a>
+        </h2>
     </div>
     <div id="border1"></div>
     <!-- About Us-->
@@ -176,170 +179,172 @@
 
 <!DOCTYPE html> {% load staticfiles %}
 <html lang="en">
-    {%  else %}
+{% else %}
 
-    <!--Banner
+<!--Banner
     <div class="text-center" id="banner">
         <h4> {{text}}</h4>
     </div>
 -->
-    <!-- main image-->
-    <div class="jumbotron-fluid">
-        <div class="container">
-            <h1 class="text-center">Our Policy is Caring</h1>
-        </div>
-    </div>
-    <!-- why choose us -->
+<!-- main image-->
+<div class="jumbotron-fluid">
     <div class="container">
-        <div id="why_choose_us" class="text-center">
-            <h1>Why Choose Us</h1>
-            <ul>
-                <li>Family Owned, Quality Service</li>
-                <li>Experienced & Professional</li>
-                <li>Competitive pricing</li>
-                <li>Multiple carriers</li>
-            </ul>
-        </div>
+        <h1 class="text-center">Our Policy is Caring</h1>
     </div>
-    <!-- Services-->
-    <div class="container-fluid">
-        <div id="services">
-            <h2 class="text-center ">Coverages We Offer</h2>
-            <div class="row ">
-                <div id="auto-img">
-                    <h2 class="text-center">Auto</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div id="home-img">
-                    <h2 class="text-center">Home</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div id="comm-img">
-                    <h2 class="text-center">Commercial</h2>
-                </div>
+</div>
+<!-- why choose us -->
+<div class="container">
+    <div id="why_choose_us" class="text-center">
+        <h1>Why Choose Us</h1>
+        <ul>
+            <li>Family Owned, Quality Service</li>
+            <li>Experienced & Professional</li>
+            <li>Competitive pricing</li>
+            <li>Multiple carriers</li>
+        </ul>
+    </div>
+</div>
+<!-- Services-->
+<div class="container-fluid">
+    <div id="services">
+        <h2 class="text-center ">Coverages We Offer</h2>
+        <div class="row ">
+            <div id="auto-img">
+                <h2 class="text-center">Auto</h2>
             </div>
         </div>
-    </div>
-    <div id="border1"></div>
-    <!-- About Us-->
-    <div class="container text-center">
-        <div id="about_us">
-            <h1>About Us</h1>
-            <p>We are a family owned office that has serving the Houston area since 2006 with all insurance needs.
-                <br> Since the moment we started our little business we wanted to maintain a family oriented business with an
-                emphasis on honesty and support.
-                <br> Which isn't seen much today, unfortunately, We like to give it straight to our clients, no sugarcoat, and
-                look to provide the best coverage for all their needs.
-                <br> your looking for on-demand support, something big chain companies can't provide, you have found the ideal
-                place. We are always one call away to answer any and all question you may have.</p>
+        <div class="row">
+            <div id="home-img">
+                <h2 class="text-center">Home</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="comm-img">
+                <h2 class="text-center">Commercial</h2>
+            </div>
         </div>
     </div>
-    <!-- footer-->
-    <div class="container-fluid">
-        <div class="text-center" id="footer">
-            <h1>Contact Us</h1>
-            <p>Email: estelatwfg@hotmail.com</p>
-            <p>Office: (832)446-6350</p>
-            <p>Mobile: (281)701-7397</p>
-            <p>Fax: (832)446-6418</p>
-            <p>4420 Cypress Creek Pkwy
-                <br> Suite 201</p>
-            <a href="https://www.facebook.com/Estela-Portillo-Twfg-Insurance-210860899505324/" target="_blank">
-                <img src="https://i.imgur.com/YJPKBL5.png" alt="facebook" id="facebook">
-            </a>
-        </div>
+</div>
+<div class="text-center" id='more'>
+    <h2>
+        <a href="/mas">More Coverages ...</a>
+    </h2>
+</div>
+<div id="border1"></div>
+<!-- About Us-->
+<div class="container text-center">
+    <div id="about_us">
+        <h1>About Us</h1>
+        <p>We are a family owned office that has serving the Houston area since 2006 with all insurance needs.
+            <br> Since the moment we started our little business we wanted to maintain a family oriented business with an emphasis
+            on honesty and support.
+            <br> Which isn't seen much today, unfortunately, We like to give it straight to our clients, no sugarcoat, and look
+            to provide the best coverage for all their needs.
+            <br> your looking for on-demand support, something big chain companies can't provide, you have found the ideal place.
+            We are always one call away to answer any and all question you may have.</p>
     </div>
-    <!--Map-->
-    <div class="container-fluid">
-        <div id="map">
-            <script>
-                function initMap() {
-                    // Create a new StyledMapType object, passing it an array of styles,
-                    // and the name to be displayed on the map type control.
-
-
-                    // Create a map object, and include the MapTypeId to add
-                    // to the map type control.
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                        center: { lat: 29.989525, lng: -95.496559 },
-                        zoom: 16,
-                        styles: [
-                            {
-                                "featureType": "administrative.land_parcel",
-                                "elementType": "labels",
-                                "stylers": [
-                                    {
-                                        "visibility": "off"
-                                    }
-                                ]
-                            },
-                            {
-                                "featureType": "administrative.neighborhood",
-                                "stylers": [
-                                    {
-                                        "visibility": "off"
-                                    }
-                                ]
-                            },
-                            {
-                                "featureType": "poi",
-                                "elementType": "labels.text",
-                                "stylers": [
-                                    {
-                                        "visibility": "off"
-                                    }
-                                ]
-                            },
-                            {
-                                "featureType": "poi.business",
-                                "stylers": [
-                                    {
-                                        "visibility": "off"
-                                    }
-                                ]
-                            },
-                            {
-                                "featureType": "poi.park",
-                                "elementType": "labels.text",
-                                "stylers": [
-                                    {
-                                        "visibility": "off"
-                                    }
-                                ]
-                            },
-                            {
-                                "featureType": "road.local",
-                                "elementType": "labels",
-                                "stylers": [
-                                    {
-                                        "visibility": "off"
-                                    }
-                                ]
-                            }
-                        ]
-                    });
-                    var uluru = { lat: 29.989525, lng: -95.496559 };
-                    var marker = new google.maps.Marker({
-                        position: uluru,
-                        map: map
-                    });
-                    //Associate the styled map with the MapTypeId and set it to display.
-
-
-                }
-            </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpFicvIMk-qD0f4-YkagX6QVFXR0prLBs&callback=initMap">
-            </script>
-        </div>
-
+</div>
+<!-- footer-->
+<div class="container-fluid">
+    <div class="text-center" id="footer">
+        <h1>Contact Us</h1>
+        <p>Email: estelatwfg@hotmail.com</p>
+        <p>Office: (832)446-6350</p>
+        <p>Mobile: (281)701-7397</p>
+        <p>Fax: (832)446-6418</p>
+        <p>4420 Cypress Creek Pkwy
+            <br> Suite 201</p>
+        <a href="https://www.facebook.com/Estela-Portillo-Twfg-Insurance-210860899505324/" target="_blank">
+            <img src="https://i.imgur.com/YJPKBL5.png" alt="facebook" id="facebook">
+        </a>
     </div>
+</div>
+<!--Map-->
+<div class="container-fluid">
+    <div id="map">
+        <script>
+            function initMap() {
+                // Create a new StyledMapType object, passing it an array of styles,
+                // and the name to be displayed on the map type control.
+
+
+                // Create a map object, and include the MapTypeId to add
+                // to the map type control.
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: { lat: 29.989525, lng: -95.496559 },
+                    zoom: 16,
+                    styles: [
+                        {
+                            "featureType": "administrative.land_parcel",
+                            "elementType": "labels",
+                            "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "administrative.neighborhood",
+                            "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "labels.text",
+                            "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi.business",
+                            "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi.park",
+                            "elementType": "labels.text",
+                            "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road.local",
+                            "elementType": "labels",
+                            "stylers": [
+                                {
+                                    "visibility": "off"
+                                }
+                            ]
+                        }
+                    ]
+                });
+                var uluru = { lat: 29.989525, lng: -95.496559 };
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+                //Associate the styled map with the MapTypeId and set it to display.
+
+
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpFicvIMk-qD0f4-YkagX6QVFXR0prLBs&callback=initMap">
+        </script>
+    </div>
+
+</div>
 </body>
 
 </html>
 
-{% endif %}
-
-{% endblock body %}
-
+{% endif %} {% endblock body %}
