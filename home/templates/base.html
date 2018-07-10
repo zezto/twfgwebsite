@@ -57,13 +57,14 @@
                 </a>
             </nav>
             <div id="button" class="text-center">
-                <a href="./es" class="btn" role="button">Español</a>
+                <a href= {% block btnhref %} "./es"{% endblock btnhref %} class="btn" role="button">
+                    {% block btntxt %} Español {% endblock btntxt %}
+                </a>
+
             </div>
         </div>
     </div>
-    {% block body %} 
-    
-    {% endblock body %}
+    {% block body %} {% endblock body %}
 
 </body>
 
