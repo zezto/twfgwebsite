@@ -69,6 +69,16 @@
 #services h2{
   color: rgb(255, 106, 80);
 }
+#more{
+  padding-top: 45px;
+  margin-bottom: 10px;
+}
+#more h2 a{
+  text-decoration: none;
+  color: rgb(53, 111, 130);
+  font-weight: bold;
+  font-size: 35px;
+}
 #auto-img{
   background: url("https://i.imgur.com/mPAvCvc.png") no-repeat center;
   background-size: contain;
@@ -226,6 +236,16 @@
     }
     .container-fluid .row{
       margin-left: -160px;
+    }
+    #more{
+      padding-top: 45px;
+      margin-bottom: -30px;
+    }
+    #more h2 a{
+      text-decoration: none;
+      color: rgb(53, 111, 130);
+      font-weight: bold;
+      font-size: 25px;
     }
     #auto-img{
       background-image: url("https://i.imgur.com/PMspVn8.png");

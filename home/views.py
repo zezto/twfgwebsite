@@ -22,5 +22,5 @@ def spanish(request):
 def extra(request):
     return render(request,'home/extra.html',)
 
-def base(request):
-    return render(request, 'base.html')
+def mas(request):
+    return render(request, 'home/extra_spanish.html')
