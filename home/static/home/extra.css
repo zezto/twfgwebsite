@@ -1,0 +1,234 @@
+  .container-fluid{
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  .navbar-logo{
+    width: 500px;
+    text-align: center;
+  }
+  #button .btn{
+    color: white;
+    background-color: rgb(53, 111, 130);
+    text-align: center;
+  }
+  
+  #services{
+    padding-top: 20px;
+  }
+  #services h2{
+    color: rgb(255, 106, 80);
+  }
+  #auto-img{
+    background: url("https://i.imgur.com/mPAvCvc.png") no-repeat center;
+    background-size: contain;
+    height: 800px;
+    width: 100%;
+  }
+  #auto-img h2{
+    color: #f9b88b;
+    
+  }
+  #home-img{
+    background: url("https://i.imgur.com/fPV0qBw.png") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 869px;
+  }
+   #home-img h2{
+    color: #f9b88b;
+   }
+  #comm-img{
+    background: url("https://i.imgur.com/XgyA2ka.png") no-repeat center;
+    background-size: contain;
+    height: 715px;
+    width: 100%;
+  }
+  #comm-img h2{
+    color: #f9b88b;}
+  #flood-img{
+    background: url("https://i.imgur.com/wQWT1fD.png") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 364px;
+  }
+  #flood-img h2{
+    color: #f9b88b;}
+  #jewelry-img{
+      background: url("https://i.imgur.com/sj035Fv.png") no-repeat center;
+      background-size: contain;
+      width: 100%;
+      height: 715px;
+      margin-left: 68px;
+  }
+  #jewelry-img h2{
+    color: #f9b88b;}
+
+  #mexico-img{
+    background: url("https://i.imgur.com/viXUi09.png") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 925px;
+    margin-left: 0px;
+    }
+  #mexico-img h2{
+    color: #f9b88b;}
+  
+  
+  @media only screen and (min-width: 480px){
+    /* for computer or tablets*/
+    .navbar-nav{
+        padding-right: 100px;
+      }
+      
+      .nav-item{
+        padding: 20px;
+      }
+    #services h2{
+        font-size: 50px;
+        font-weight: bold;
+      }
+    #auto-img{
+      margin-top: -180px;
+    }
+    #auto-img h2{
+      padding-top: 320px;
+      font-weight: bold;
+      font-size: 70px;
+    }
+    #home-img{
+      margin-top: -420px;
+    }
+    #home-img h2{
+      padding-top: 320px;
+      font-size: 70px;
+      font-weight: bold;
+    }
+    #comm-img{
+      margin-top: -530px;
+    }
+    #comm-img h2{
+      padding-top: 350px;
+      font-size: 70px;
+      font-weight: bold;
+    }
+    #flood-img{
+      margin-top: -100px;
+    }
+    #flood-img h2{
+      padding-top: 145px;
+      font-size: 70px;
+      font-weight: bold;
+    }
+    #jewelry-img{
+        margin-top: -130px;
+    }
+    #jewelry-img h2{
+        padding-top: 315px;
+        font-size: 70px;
+        font-weight: bold;
+      }
+    #mexico-img{
+        margin-top: -265px;
+        margin-bottom: -400px;
+    }
+    #mexico-img h2{
+        padding-top: 300px;
+        font-size: 70px;
+        font-weight: bold;
+      }
+  }
+  
+  @media only screen and (max-width: 480px){
+    /* for phones */
+
+    .nav-link , .nav-item {
+        text-align: center;
+          
+      }
+    .container-fluid .row{
+        margin-left: -160px;
+      }
+      #auto-img{
+        background-image: url("https://i.imgur.com/PMspVn8.png");
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        position: relative;
+        padding-top: 50px;
+        margin-bottom: 30px;
+      }
+      #auto-img h2{
+        padding-top: 70px;
+        font-size: 50px;
+        padding-left: 210px;
+      }
+      #home-img{
+        background: url("https://i.imgur.com/arhYzXS.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        position: relative;
+        margin-top: -170px;
+      }
+      #home-img h2{
+        padding-top: 320px;
+        font-size: 50px;
+        padding-left: 120px;
+      }
+      #comm-img{
+        background: url("https://i.imgur.com/wZULMV5.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+        position: relative;
+        margin-top: -225px;
+      }
+      #comm-img h2{
+        padding-top: 240px;
+        font-size: 50px;
+        padding-left: 210px;
+      }
+      #flood-img{
+        background: url("https://i.imgur.com/TIYDrhi.png") no-repeat center;
+        background-size: contain;
+        width: 100%;
+        height: 375px;
+        position: relative;
+        margin-top: -100px;
+      }
+      #flood-img h2{
+        padding-top: 160px;
+        font-size: 50px;
+        padding-left: 40px;
+      }
+      #jewelry-img{
+        background: url("https://i.imgur.com/XErfTCL.png") no-repeat center;
+        background-size: contain;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        margin-top: 25px;
+        padding-left: 700px;
+      }
+      #jewelry-img h2{
+        padding-top: 120px;
+        font-size: 50px;
+        margin-left: -800px;
+      }
+      #mexico-img{
+        background: url("https://i.imgur.com/b7vhHp9.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        position: relative;
+        margin-top: 25px;
+        margin-left: 75px;
+      }
+      #mexico-img h2{
+        padding-top: 175px;
+        font-size: 50px;
+      }
+    }
+  

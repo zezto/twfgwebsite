@@ -18,3 +18,9 @@ def spanish(request):
         content += e.text
     context = {'text': content}
     return render(request, 'home/spanish.html',context)
+
+def extra(request):
+    return render(request,'home/extra.html',)
+
+def base(request):
+    return render(request, 'base.html')

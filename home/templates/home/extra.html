@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %} 
+{% load staticfiles %}
+
+<head>
+    <title>
+        {% block title %} Additional coverages {% endblock title %}
+    </title>
+    <link rel="stylesheet" href= {% block css %} "{% static 'home/extra.css' %}" {% endblock css %}>
+</head>
+
+<body>
+
+    {% block body %}
+
+
+    <div class="container-fluid">
+        <div id="services">
+            <h2 class="text-center ">Coverages We Offer</h2>
+            <div class="row ">
+                <div id="auto-img">
+                    <h2 class="text-center">Auto</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div id="home-img">
+                    <h2 class="text-center">Home</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div id="comm-img">
+                    <h2 class="text-center">Commercial</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div id="flood-img">
+                    <h2 class="text-center">Flood</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div id="jewelry-img">
+                    <h2 class="text-center">Jewelry</h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div id="mexico-img">
+                        <h2 class="text-center">Mexico</h2>
+                    </div>
+                </div>
+        </div>
+        {% endblock body %}
+
+</body>
+
+</html>
