@@ -72,6 +72,45 @@
     }
   #mexico-img h2{
     color: #f9b88b;}
+
+  #moto-img{
+      background: url("https://i.imgur.com/MgOThvD.png") no-repeat center;
+      background-size: contain;
+      width: 100%;
+      height: 868px;
+      margin-left: 0px;
+      }
+  #moto-img h2{
+      color: #f9b88b;}
+
+  #boat-img{
+        background: url("https://i.imgur.com/hnbtPXi.png") no-repeat center;
+        background-size: contain;
+        width: 100%;
+        height: 732px;
+        margin-left: 0px;
+        }
+  #boat-img h2{
+        color: #f9b88b;}
+
+  #rent-img{
+          background: url("https://i.imgur.com/RPZ21pC.png") no-repeat center;
+          background-size: contain;
+          width: 100%;
+          height: 913px;
+          margin-left: 0px;
+          }
+  #rent-img h2{
+          color: #f9b88b;}
+  #rv-img{
+    background: url("https://i.imgur.com/T5sPAS2.png") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 838px;
+    margin-left: 12.5px;
+    }
+  #rv-img h2{
+            color: #f9b88b;}
   
   
   @media only screen and (min-width: 480px){
@@ -133,6 +172,41 @@
     }
     #mexico-img h2{
         padding-top: 300px;
+        font-size: 70px;
+        font-weight: bold;
+      }
+
+    #moto-img{
+        margin-top: -220px;
+    }
+    #moto-img h2{
+        padding-top: 375px;
+        font-size: 70px;
+        font-weight: bold;
+      }
+
+    #boat-img{
+        margin-top: -375px;
+    }
+    #boat-img h2{
+        padding-top: 275px;
+        font-size: 70px;
+        font-weight: bold;
+      }
+    #rent-img{
+        margin-top: -465px;
+    }
+    #rent-img h2{
+        padding-top: 425px;
+        font-size: 70px;
+        font-weight: bold;
+      }
+    #rv-img{
+        margin-top: -465px;
+        margin-bottom: -230px;
+    }
+    #rv-img h2{
+        padding-top: 375px;
         font-size: 70px;
         font-weight: bold;
       }
@@ -229,6 +303,58 @@
       #mexico-img h2{
         padding-top: 175px;
         font-size: 50px;
+      }
+      #moto-img{
+        background: url("https://i.imgur.com/V863BNx.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        position: relative;
+        margin-top: -65px;
+        margin-left: 220px;
+      }
+      #moto-img h2{
+        padding-top: 235px;
+        font-size: 50px;
+      }
+      #boat-img{
+        background: url("https://i.imgur.com/QbyovK7.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        margin-top: -180px;
+      }
+      #boat-img h2{
+        padding-top: 255px;
+        font-size: 50px;
+      }
+      #rent-img{
+        background: url("https://i.imgur.com/SebYmpk.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        margin-top: -260px;
+      }
+      #rent-img h2{
+        padding-top: 300px;
+        font-size: 50px;
+        padding-left: 175px;
+      }
+      #rv-img{
+        background: url("https://i.imgur.com/uaSBClN.png") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        position: relative;
+        margin-top: -88px;
+        margin-left: -25px;
+      }
+      #rv-img h2{
+        padding-top: 285px;
+        font-size: 50px;
+        padding-left: 175px;
       }
     }
   
