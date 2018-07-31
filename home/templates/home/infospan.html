@@ -1,0 +1,44 @@
+<!DOCTYPE html> {% extends 'base.html' %}
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Info</title>
+</head>
+
+<body>
+    {% block body %}
+    <div id="consumerform">
+        <div class="container-fluid text-center">
+
+
+            <form action="" method="POST" class="form">
+                {% csrf_token %}
+                <div id="form-name">
+                    <h2>Nombre</h2>
+                    {{form.name}}</div>
+                <div id="form-email">
+                    <h2>Correo Electrónico</h2>
+                    {{form.email}}
+
+                </div>
+                <div id="form-phone">
+                    <h2>Número de Teléfono</h2>
+                    {{form.phone}}
+                </div>
+                <div id="form-comm">
+                    <h2>Comentarios Adicionales</h2>
+                    {{form.comment}}
+                </div>
+
+                <input type="submit" value="Submit" />
+            </form>
+
+        </div>
+    </div>
+    {% endblock body %}
+</body>
+
+</html>

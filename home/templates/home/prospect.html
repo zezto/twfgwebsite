@@ -1,0 +1,44 @@
+<!DOCTYPE html> {% extends 'base.html' %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    {% block body %} {% for client in cont %}
+    <div id="client" class="mx-auto">
+        <div class="text-center" id="client-info">
+            <h2>Name:</h2>
+            <h3>{{client.name}}</h3>
+            <h2>Email:</h2>
+            <h3>{{client.email}}</h3>
+            <h2>Phone #:</h2>
+            <h3>{{client.phone}}</h3>
+            <h2>Comment:</h2>
+            <h4 id="cust-comm">{{client.comment}}</h4>
+        </div>
+        <div id="edit-form" class="text-center">
+            <form action="" method="post">
+                {% csrf_token %}
+                <h3>Have you worked it?</h3>
+                {% if not client.worked %}
+                <input type="checkbox" name="client" id="client{{ forloop.counter }}" value="{{client.id}}">
+                <input type="submit" value="Update"> {% endif %} {% if client.worked == True %}
+                <label for="client{{forloop.counter}}">
+                    <img src="https://i.imgur.com/biKg1TS.png" alt="WORKED!">
+                </label>
+                {% endif %}
+                <br>
+            </form>
+        </div>
+    </div>
+    {% endfor %} {% endblock body %}
+
+</body>
+
+</html>
