@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^form$', views.form, name='form'),
     url(r'^prospect$', views.pros, name='client'),
     url(r'^forma$', views.forma, name='forma'),
+    url(r'^robots.txt$', views.robot, name='robot')
 
 
 ]

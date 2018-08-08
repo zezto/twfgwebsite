@@ -61,3 +61,7 @@ def pros(request):
     context = {'cont': cont}
 
     return render (request,'home/prospect.html', context)
+
+
+def robot(request):
+    return render(request, 'robots.txt',)

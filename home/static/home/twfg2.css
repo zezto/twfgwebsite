@@ -78,7 +78,7 @@
   }
   
   #insurance-image{
-    background-image: url("https://i.imgur.com/GRu291B.jpg");
+    background-image: url("/static/img/GRu291B.jpg");
     background-size: cover;
     width: 100%;
     height: 45.7em;
@@ -114,7 +114,7 @@
     text-align: center;
   }
   .auto{
-    background-image: url("https://i.imgur.com/xxEGQlF.png");
+    background-image: url("/static/img/xxEGQlF.png");
     background-size: cover;
     background-position: center;
     display:inline-block;
@@ -130,7 +130,7 @@
     padding-top: .6em;
   }
   .home{
-    background-image: url("https://i.imgur.com/MLNRYaS.png");
+    background-image: url("/static/img/MLNRYaS.png");
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -146,7 +146,7 @@
     padding-top: 1em;
   }
   .com{
-    background-image: url("https://i.imgur.com/7zDsbOa.png");
+    background-image: url("/static/img/7zDsbOa.png");
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -201,7 +201,7 @@
   #map { 
     height: 400px; width: 100%; 
   }
-  /*icon url car "https://i.imgur.com/xxEGQlF.png"
-  icon url house "https://i.imgur.com/MLNRYaS.png"
-  icon url glass " https://i.imgur.com/rRQ9lOf.png"
-  icon comemrcial url "https://i.imgur.com/7zDsbOa.png"
+  /*icon url car "/static/img/xxEGQlF.png"
+  icon url house "/static/img/MLNRYaS.png"
+  icon url glass " /static/img/rRQ9lOf.png"
+  icon comemrcial url "/static/img/7zDsbOa.png"

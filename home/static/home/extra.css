@@ -19,7 +19,7 @@
     color: rgb(255, 106, 80);
   }
   #auto-img{
-    background: url("https://i.imgur.com/mPAvCvc.png") no-repeat center;
+    background: url("/static/img/mPAvCvc.png") no-repeat center;
     background-size: contain;
     height: 800px;
     width: 100%;
@@ -29,7 +29,7 @@
     
   }
   #home-img{
-    background: url("https://i.imgur.com/fPV0qBw.png") no-repeat center;
+    background: url("/static/img/fPV0qBw.png") no-repeat center;
     background-size: contain;
     width: 100%;
     height: 869px;
@@ -38,7 +38,7 @@
     color: #f9b88b;
    }
   #comm-img{
-    background: url("https://i.imgur.com/XgyA2ka.png") no-repeat center;
+    background: url("/static/img/XgyA2ka.png") no-repeat center;
     background-size: contain;
     height: 715px;
     width: 100%;
@@ -46,7 +46,7 @@
   #comm-img h2{
     color: #f9b88b;}
   #flood-img{
-    background: url("https://i.imgur.com/wQWT1fD.png") no-repeat center;
+    background: url("/static/img/wQWT1fD.png") no-repeat center;
     background-size: contain;
     width: 100%;
     height: 364px;
@@ -54,7 +54,7 @@
   #flood-img h2{
     color: #f9b88b;}
   #jewelry-img{
-      background: url("https://i.imgur.com/sj035Fv.png") no-repeat center;
+      background: url("/static/img/sj035Fv.png") no-repeat center;
       background-size: contain;
       width: 100%;
       height: 715px;
@@ -64,7 +64,7 @@
     color: #f9b88b;}
 
   #mexico-img{
-    background: url("https://i.imgur.com/viXUi09.png") no-repeat center;
+    background: url("/static/img/viXUi09.png") no-repeat center;
     background-size: contain;
     width: 100%;
     height: 925px;
@@ -74,7 +74,7 @@
     color: #f9b88b;}
 
   #moto-img{
-      background: url("https://i.imgur.com/MgOThvD.png") no-repeat center;
+      background: url("/static/img/MgOThvD.png") no-repeat center;
       background-size: contain;
       width: 100%;
       height: 868px;
@@ -84,7 +84,7 @@
       color: #f9b88b;}
 
   #boat-img{
-        background: url("https://i.imgur.com/hnbtPXi.png") no-repeat center;
+        background: url("/static/img/hnbtPXi.png") no-repeat center;
         background-size: contain;
         width: 100%;
         height: 732px;
@@ -94,7 +94,7 @@
         color: #f9b88b;}
 
   #rent-img{
-          background: url("https://i.imgur.com/RPZ21pC.png") no-repeat center;
+          background: url("/static/img/RPZ21pC.png") no-repeat center;
           background-size: contain;
           width: 100%;
           height: 913px;
@@ -103,7 +103,7 @@
   #rent-img h2{
           color: #f9b88b;}
   #rv-img{
-    background: url("https://i.imgur.com/T5sPAS2.png") no-repeat center;
+    background: url("/static/img/T5sPAS2.png") no-repeat center;
     background-size: contain;
     width: 100%;
     height: 838px;
@@ -223,7 +223,7 @@
         margin-left: -160px;
       }
       #auto-img{
-        background-image: url("https://i.imgur.com/PMspVn8.png");
+        background-image: url("/static/img/PMspVn8.png");
         background-size: cover;
         width: 100%;
         height: 300px;
@@ -239,7 +239,7 @@
         padding-left: 210px;
       }
       #home-img{
-        background: url("https://i.imgur.com/arhYzXS.png") no-repeat center;
+        background: url("/static/img/arhYzXS.png") no-repeat center;
         background-size: cover;
         width: 100%;
         height: 700px;
@@ -252,7 +252,7 @@
         padding-left: 120px;
       }
       #comm-img{
-        background: url("https://i.imgur.com/wZULMV5.png") no-repeat center;
+        background: url("/static/img/wZULMV5.png") no-repeat center;
         background-size: cover;
         width: 100%;
         height: 550px;
@@ -265,7 +265,7 @@
         padding-left: 210px;
       }
       #flood-img{
-        background: url("https://i.imgur.com/TIYDrhi.png") no-repeat center;
+        background: url("/static/img/TIYDrhi.png") no-repeat center;
         background-size: contain;
         width: 100%;
         height: 375px;
@@ -278,7 +278,7 @@
         padding-left: 40px;
       }
       #jewelry-img{
-        background: url("https://i.imgur.com/XErfTCL.png") no-repeat center;
+        background: url("/static/img/XErfTCL.png") no-repeat center;
         background-size: contain;
         width: 100%;
         height: 300px;
@@ -292,7 +292,7 @@
         margin-left: -800px;
       }
       #mexico-img{
-        background: url("https://i.imgur.com/b7vhHp9.png") no-repeat center;
+        background: url("/static/img/b7vhHp9.png") no-repeat center;
         background-size: cover;
         width: 100%;
         height: 400px;
@@ -305,7 +305,7 @@
         font-size: 50px;
       }
       #moto-img{
-        background: url("https://i.imgur.com/V863BNx.png") no-repeat center;
+        background: url("/static/img/V863BNx.png") no-repeat center;
         background-size: cover;
         width: 100%;
         height: 500px;
@@ -318,7 +318,7 @@
         font-size: 50px;
       }
       #boat-img{
-        background: url("https://i.imgur.com/QbyovK7.png") no-repeat center;
+        background: url("/static/img/QbyovK7.png") no-repeat center;
         background-size: cover;
         width: 100%;
         height: 600px;
@@ -330,7 +330,7 @@
         font-size: 50px;
       }
       #rent-img{
-        background: url("https://i.imgur.com/SebYmpk.png") no-repeat center;
+        background: url("/static/img/SebYmpk.png") no-repeat center;
         background-size: cover;
         width: 100%;
         height: 600px;
@@ -343,7 +343,7 @@
         padding-left: 175px;
       }
       #rv-img{
-        background: url("https://i.imgur.com/uaSBClN.png") no-repeat center;
+        background: url("/static/img/uaSBClN.png") no-repeat center;
         background-size: cover;
         width: 100%;
         height: 600px;

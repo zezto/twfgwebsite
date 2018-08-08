@@ -28,7 +28,7 @@
   font-size: 18px;
 }
 .jumbotron-fluid{
-  background-image: url("https://i.imgur.com/GRu291B.jpg");
+  background-image: url("/static/img/GRu291B.jpg");
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -80,7 +80,7 @@
   font-size: 35px;
 }
 #auto-img{
-  background: url("https://i.imgur.com/mPAvCvc.png") no-repeat center;
+  background: url("/static/img/mPAvCvc.png") no-repeat center;
   background-size: contain;
   height: 800px;
   width: 100%;
@@ -90,19 +90,19 @@
   
 }
 #home-img{
-  background: url("https://i.imgur.com/fPV0qBw.png") no-repeat center;
+  background: url("/static/img/fPV0qBw.png") no-repeat center;
   background-size: contain;
   width: 100%;
   height: 869px;
 }
 #comm-img{
-  background: url("https://i.imgur.com/XgyA2ka.png") no-repeat center;
+  background: url("/static/img/XgyA2ka.png") no-repeat center;
   background-size: contain;
   height: 715px;
   width: 100%;
 }
 #flood-img{
-  background: url("https://i.imgur.com/wQWT1fD.png") no-repeat center;
+  background: url("/static/img/wQWT1fD.png") no-repeat center;
   background-size: contain;
   width: 100%;
   height: 372px;
@@ -133,7 +133,7 @@
   color: rgb(255, 106, 80);
 }
 #footer h2 a{
-  color: rgb(53, 111, 130);
+  color: rgb(255, 106, 80);
 }
 #facebook{
   height: 60px;
@@ -228,7 +228,7 @@ input[type=text]{
 @media only screen and (max-width: 480px){
   /* for phones */
   .jumbotron-fluid{
-    background-image: url("https://i.imgur.com/GRu291B.jpg");
+    background-image: url("/static/img/GRu291B.jpg");
     background-size: cover;
     width: 100%;
     height: 500px;
@@ -272,7 +272,7 @@ input[type=text]{
       font-size: 25px;
     }
     #auto-img{
-      background-image: url("https://i.imgur.com/PMspVn8.png");
+      background-image: url("/static/img/PMspVn8.png");
       background-size: cover;
       width: 100%;
       height: 300px;
@@ -288,7 +288,7 @@ input[type=text]{
       padding-left: 210px;
     }
     #home-img{
-      background: url("https://i.imgur.com/arhYzXS.png") no-repeat center;
+      background: url("/static/img/arhYzXS.png") no-repeat center;
       background-size: cover;
       width: 100%;
       height: 700px;
@@ -301,7 +301,7 @@ input[type=text]{
       padding-left: 120px;
     }
     #comm-img{
-      background: url("https://i.imgur.com/wZULMV5.png") no-repeat center;
+      background: url("/static/img/wZULMV5.png") no-repeat center;
       background-size: cover;
       width: 100%;
       height: 550px;
@@ -314,7 +314,7 @@ input[type=text]{
       padding-left: 210px;
     }
     #flood-img{
-      background: url("https://i.imgur.com/TIYDrhi.png") no-repeat center;
+      background: url("/static/img/TIYDrhi.png") no-repeat center;
       background-size: contain;
       width: 100%;
       height: 375px;
@@ -342,4 +342,5 @@ input[type=text]{
     #footer a{
       font-size: 25px;
     }
+    
   }

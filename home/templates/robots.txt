@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin
+Disallow: /prospect
+Disallow: /form
+Disallow: /forma
